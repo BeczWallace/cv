@@ -1,0 +1,41 @@
+.progress .bar {
+    line-height: 16px;
+}
+.modal .stdform label {
+    width: 100px;
+}
+.modal .stdform span.field, .modal .stdform div.field {
+    margin-left: 120px;
+}
+td img {
+    max-width: 600px;
+}
+.preview {
+    display: inline-block;
+    margin-right: 2%;
+    width: 15%;
+}
+.table.table-bordered.responsive p {
+    white-space: normal;
+}
+#medialist .image img {
+    width: 100px;
+}
+.mediaWrapper {
+    width: 275px;
+}
+.shortcuts li .shortcuts-icon {
+    font-size: 65px;
+    height: 65px;
+    width: 65px;
+}
+.bootstrap-switch input[type="radio"], .bootstrap-switch input[type="checkbox"] {
+    opacity: 0 !important;
+}
+.shortcuts li a {
+    width: 155px;
+    height: 155px;
+}
+.ui-datepicker {
+    z-index: 1051 !important;
+}
