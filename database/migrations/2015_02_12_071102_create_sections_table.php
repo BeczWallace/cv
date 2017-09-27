@@ -11,8 +11,8 @@ class CreateSectionsTable extends Migration {
 			$table->increments('id');
 			$table->integer('user_id')->unsigned();
 			$table->string('section_id');
-			$table->string('header');
-			$table->string('sub');
+			$table->string('header')->nullable();
+			$table->string('sub')->nullable();
 			// $table->timestamps();
 		});
 	}
