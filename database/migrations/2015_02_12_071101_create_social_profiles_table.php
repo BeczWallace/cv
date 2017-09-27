@@ -17,7 +17,7 @@ class CreateSocialProfilesTable extends Migration {
 			$table->string('pinterest')->nullable();
 			$table->string('dropbox')->nullable();
 			$table->string('instagram')->nullable();
-			$table->timestamps();
+			// $table->timestamps();
 		});
 	}
 

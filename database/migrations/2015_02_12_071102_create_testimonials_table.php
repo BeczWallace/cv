@@ -13,7 +13,7 @@ class CreateTestimonialsTable extends Migration {
 			$table->string('photo');
 			$table->text('text');
 			$table->string('author');
-			$table->timestamps();
+			// $table->timestamps();
 		});
 	}
 

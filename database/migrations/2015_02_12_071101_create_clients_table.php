@@ -12,7 +12,7 @@ class CreateClientsTable extends Migration {
 			$table->integer('user_id')->unsigned();
 			$table->string('Name');
 			$table->string('image');
-			$table->timestamps();
+			// $table->timestamps();
 		});
 	}
 
