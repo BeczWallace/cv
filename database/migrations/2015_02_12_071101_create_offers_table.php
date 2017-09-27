@@ -13,7 +13,7 @@ class CreateOffersTable extends Migration {
 			$table->string('title');
 			$table->string('icon');
 			$table->text('description');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

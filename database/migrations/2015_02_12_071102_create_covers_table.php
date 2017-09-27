@@ -11,7 +11,7 @@ class CreateCoversTable extends Migration {
 			$table->increments('id');
 			$table->integer('user_id')->unsigned();
 			$table->string('image');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

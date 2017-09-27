@@ -15,7 +15,7 @@ class CreateWorkTable extends Migration {
 			$table->text('description');
 			$table->date('date_start');
 			$table->date('date_end')->nullable();
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

@@ -14,7 +14,7 @@ class CreateAwardsTable extends Migration {
 			$table->string('title');
 			$table->text('description');
 			$table->date('date');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

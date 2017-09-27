@@ -14,7 +14,7 @@ class CreateEducationTable extends Migration {
 			$table->string('school');
 			$table->text('description');
 			$table->date('graduation');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

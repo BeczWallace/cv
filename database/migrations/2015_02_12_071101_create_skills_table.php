@@ -12,7 +12,7 @@ class CreateSkillsTable extends Migration {
 			$table->integer('user_id')->unsigned();
 			$table->string('name');
 			$table->smallInteger('percentage');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 

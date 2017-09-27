@@ -13,7 +13,7 @@ class CreateSectionsTable extends Migration {
 			$table->string('section_id');
 			$table->string('header');
 			$table->string('sub');
-			// $table->timestamps();
+			$table->timestamps();
 		});
 	}
 
