@@ -12,7 +12,7 @@ class CreateProjectsTable extends Migration {
 			$table->integer('user_id')->unsigned();
 			$table->string('title');
 			$table->string('categories');
-			$table->string('client');
+			$table->string('client')->nullable();
 			$table->date('date_start')->nullable();
 			$table->date('date_end')->nullable();
 			$table->string('url')->nullable();
