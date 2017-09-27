@@ -16,7 +16,7 @@ class CreateProjectsTable extends Migration {
 			$table->date('date_start')->nullable();
 			$table->date('date_end')->nullable();
 			$table->string('url')->nullable();
-			$table->string('tags');
+			$table->string('tags')->nullable();
 			$table->string('image')->nullable();
 			$table->string('img1')->nullable();
 			$table->string('img2')->nullable();
