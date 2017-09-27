@@ -14,7 +14,7 @@ class AddPhilosophyColumnToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->text('philosophy')->after('introduction');
+            $table->text('philosophy')->after('introduction')->nullable();
         });
     }
 
