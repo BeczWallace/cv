@@ -8,7 +8,7 @@ class Work extends Model
 {
 
     protected $table = 'work';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'title', 'company', 'description', 'date_start', 'date_end');
 
     public function user()

@@ -9,7 +9,7 @@ class Section extends Model
 {
 
     protected $table = 'sections';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'section_id', 'header', 'sub');
 
     public static function get($section, $user_id = null)

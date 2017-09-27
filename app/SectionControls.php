@@ -9,7 +9,7 @@ class SectionControls extends Model
 {
 
     protected $table = 'section_controls';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'section', 'enabled');
 
     public static function get($section, $user_id = null)

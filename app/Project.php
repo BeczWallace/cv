@@ -8,7 +8,7 @@ class Project extends Model
 {
 
     protected $table = 'projects';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'title', 'client', 'date_start', 'date_end', 'url', 'tags', 'image', 'img1', 'img2', 'img3', 'description');
 
     public function user()

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Offer extends Model {
 
 	protected $table = 'offers';
-	public $timestamps = true;
+	public $timestamps = false;
 	protected $fillable = array('user_id', 'title', 'icon', 'description');
 
 	public function user()

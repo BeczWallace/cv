@@ -8,7 +8,7 @@ class Award extends Model
 {
 
     protected $table = 'awards';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'icon', 'title', 'description', 'date');
 
     public function user()

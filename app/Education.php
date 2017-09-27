@@ -8,7 +8,7 @@ class Education extends Model
 {
 
     protected $table = 'education';
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = array('user_id', 'title', 'school', 'type', 'description', 'graduation');
 
     public function user()

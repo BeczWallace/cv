@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Icon extends Model {
 
 	protected $table = 'icons';
-	public $timestamps = true;
+	public $timestamps = false;
 	protected $fillable = array('name');
 
 }
