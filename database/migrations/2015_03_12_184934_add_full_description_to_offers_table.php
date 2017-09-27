@@ -14,7 +14,7 @@ class AddFullDescriptionToOffersTable extends Migration
     public function up()
     {
         Schema::table('offers', function (Blueprint $table) {
-            $table->text('full_description')->after('description');
+            $table->text('full_description')->after('description')->nullable()->default('Full Description goes here');
         });
     }
 
