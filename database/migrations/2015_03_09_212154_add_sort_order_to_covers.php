@@ -14,7 +14,7 @@ class AddSortOrderToCovers extends Migration
     public function up()
     {
         Schema::table('covers', function (Blueprint $table) {
-            $table->integer('sort_order')->after('image');
+            $table->integer('sort_order')->after('image')->nullable();
         });
     }
 
