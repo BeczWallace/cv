@@ -21,7 +21,8 @@ class UserTableSeeder extends Seeder {
 				'profile_title' => 'CEO. Thuglife. Yolo.',
 				'introduction' => '<p>Hi my name is ALEX DAVIDS. I\'m a 28 year old multi talent from San Francisco.</p> <p>Let me give you a short introduction of myself, with all the keyfacts. If you want to know more about  me just further explore this page. <br>Thanks alot for visiting.</p><br> Kind Regards,<img src="img/signature.png" class="img-responsive" alt="" />',
 				'password' => Hash::make('test'),
-				'philosophy' => 'Hey there I am the philosophy'
+				'philosophy' => 'Hey there I am the philosophy',
+				'experience' => 'Experience goes here'
 			));
 	}
 }
