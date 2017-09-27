@@ -10,8 +10,8 @@ class CreateProjectsTable extends Migration {
 		Schema::create('projects', function(Blueprint $table) {
 			$table->increments('id');
 			$table->integer('user_id')->unsigned();
-			$table->string('title');
-			$table->string('categories');
+			$table->string('title')->nullable();
+			$table->string('categories')->nullable();
 			$table->string('client')->nullable();
 			$table->date('date_start')->nullable();
 			$table->date('date_end')->nullable();
@@ -21,7 +21,7 @@ class CreateProjectsTable extends Migration {
 			$table->string('img1')->nullable();
 			$table->string('img2')->nullable();
 			$table->string('img3')->nullable();
-			$table->text('description');
+			$table->text('description')->nullable();
 			// $table->timestamps();
 		});
 	}
