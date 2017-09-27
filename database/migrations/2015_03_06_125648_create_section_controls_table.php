@@ -12,7 +12,7 @@ class CreateSectionControlsTable extends Migration {
 			$table->integer('user_id')->unsigned();
 			$table->string('section');
 			$table->boolean('enabled');
-			// $table->timestamps();
+			// $table->timestampsTz();
 		});
 	}
 
